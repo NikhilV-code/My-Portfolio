@@ -35,13 +35,12 @@ const Experience = () => {
                         <p className='mb-4 text-stone-400'>{experience.description}
                         </p>
                         <div className="flex flex-wrap gap-2">
-                {experience.technologies.map((tech, i) => (
-                  <span
-                    key={i}
-                    className="rounded bg-stone-900 px-3 py-1 text-sm font-medium text-stone-300"
-                  >
-                    {tech}
-                    </span>
+                         {experience.technologies.map((tech, i) => (
+                         <span
+                          key={i}
+                          className="rounded bg-stone-900 px-3 py-1 text-sm font-medium text-stone-300">
+                         {tech}
+                         </span>
                         ))}
                     </div>
                     </motion.div>
