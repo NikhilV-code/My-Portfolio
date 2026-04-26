@@ -11,8 +11,7 @@ const Experience = () => {
             className='my-20 text-center text-4xl'>Experience</motion.h2>
         <div>
             {EXPERIENCES.map((experience, index) => (
-                <div key={index} className='mb-8 flex flex-wrap
-                lg:justify-center'>
+                <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
                     <motion.div 
                        whileInView={{ opacity: 1, x: 0}}
                        initial={{ opacity: 0, x: -100}}
@@ -32,8 +31,7 @@ const Experience = () => {
                             <span className='text-sm text-stone-50'>
                                 {experience.company}</span>
                         </h3>
-                        <p className='mb-4 text-stone-400'>{experience.description}
-                        </p>
+                        <p className='mb-4 text-stone-400'>{experience.description}</p>
                         <div className="flex flex-wrap gap-2">
                          {experience.technologies.map((tech, i) => (
                          <span

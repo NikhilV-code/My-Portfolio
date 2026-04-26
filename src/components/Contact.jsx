@@ -41,7 +41,7 @@ const Contact = () => {
            initial={{ opacity: 0, x: 100}}
            transition={{ duration: 1}}
          className=" border border-stone-900 text-center text-gray-300 py-8 my-10 -mb-10">
-          Copyright &#169; 2025 Nikhil Verma. All rights reserved.
+          Copyright &#169; 2026 Nikhil Verma. All rights reserved.
         </motion.footer>
     </div>
     </div>

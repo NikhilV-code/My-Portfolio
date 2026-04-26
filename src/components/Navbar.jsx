@@ -24,12 +24,12 @@ const Navbar = () => {
                 aria-label="GitHub">
                     <FaGithub/>
             </a>
-            <a href="https://x.com/nikhilV988"
+            {/* <a href="https://x.com/nikhilV988"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter">
                     <FaSquareXTwitter/>
-            </a>
+            </a> */}
         </div>
     </nav>
   )
