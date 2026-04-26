@@ -1,12 +1,43 @@
-# React + Vite
+# 🧑‍💻 Nikhil Verma — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with **React.js**, **Vite**, **Tailwind CSS**, and **Framer Motion** showcasing my skills, projects, and experience as a Full Stack MERN Developer.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+[https://nikhilv-code.github.io/My-Portfolio/](https://nikhilv-code.github.io/My-Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
 
-## Expanding the ESLint configuration
+## ✨ Features
+- Animated hero section with profile photo
+- Skills & technologies section with hover tooltips
+- Work experience timeline
+- Projects showcase
+- Contact section
+- Resume download button
+- Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Run Locally
+
+```bash
+git clone https://github.com/NikhilV-code/My-Portfolio.git
+cd My-Portfolio
+npm install
+npm run dev
+```
+
+## 🚀 Deployment
+Deployed using **GitHub Pages** via `gh-pages` package.
+
+```bash
+npm run deploy
+```
+
+## 📬 Contact
+- **Email:** nv425522@gmail.com
+- **LinkedIn:** [linkedin.com/in/nikhil-verma-snv](https://linkedin.com/in/nikhil-verma-snv)
+- **GitHub:** [github.com/NikhilV-code](https://github.com/NikhilV-code)
